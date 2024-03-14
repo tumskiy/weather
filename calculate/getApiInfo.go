@@ -11,7 +11,7 @@ import (
 	"weather/types"
 )
 
-const ApiKey string = "15473bdd4f60e7b0cedb86d0d4398dd8"
+const ApiKey string = "1"
 
 func GetWeather(lat, lon float64) types.ApiWeather {
 	latStr := strconv.FormatFloat(lat, 'f', -1, 64)
